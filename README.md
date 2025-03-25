@@ -82,12 +82,7 @@ Example Queries
 
 -   "Show the trend of sales over time"
 
-Project Structure
------------------
 
-text
-
-`text2sql_viz_streamlit/ ├── app.py                # Main Streamlit application ├── requirements.txt      # Dependencies ├── utils/ │   ├── __init__.py       # Package initialization │   ├── database.py       # Database operations │   ├── visualization.py  # Visualization functions │   └── agent.py          # SmolAgents setup and query processing `
 
 Dependencies
 ------------
