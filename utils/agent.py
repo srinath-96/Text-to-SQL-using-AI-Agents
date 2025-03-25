@@ -17,7 +17,7 @@ def setup_agent():
         CodeAgent: Configured agent
     """
     # Set up API key for Gemini
-    os.environ["GEMINI_API_KEY"] = 'AIzaSyCxr4mmy9G7ikhes6PDmp2gksYPXA9k1Jo'
+    os.environ["GEMINI_API_KEY"] = 'API_KEY'
     
     # Initialize the model
     model = LiteLLMModel(model_id='gemini/gemini-2.0-flash')
